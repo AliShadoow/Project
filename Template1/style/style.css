@@ -84,7 +84,7 @@ header .socials a{
 header .socials a:nth-child(2){
     padding: 0 2px;
 }
-header .socials .fab{
+header .socials .fab,header .socials .far{
     font-size: 18px;
     padding: 15px;
     display: inline-block;
