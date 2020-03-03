@@ -138,6 +138,36 @@ footer span{
     border-bottom: 1px dotted #C3C0CB;
 }
 /* Media Query */
+ /* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+    .container{
+        width: 90%;
+    }
+    header h1{
+        width: 85%;
+    }
+}
+
+ /* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .container{
+        width: 95%;
+    }
+    header h1{
+        font-size: 18px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .container{
+        width: 90%;
+    }
+  
+    header h1{
+        font-size: 18px;
+    }
+}
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .container{
@@ -148,32 +178,5 @@ footer span{
     }
     header h1{
         font-size: 18px;
-    }
-}
-
- /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
-    .container{
-        width: 100%;
-    }
-    .col-1{
-        width: 100%;
-    }
-    header h1{
-        font-size: 18px;
-    }
-}
-
- /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
-    .container{
-        width: 95%;
-    }
-}
-
- /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-    .container{
-        width: 95%;
     }
 }
