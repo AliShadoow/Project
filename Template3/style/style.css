@@ -55,7 +55,9 @@ body{
 }
 /* header */
 header{
+    width: 80%;
     height: 80vh;
+    margin: 0 auto;
     background-image: url(./img/spot-bg-01.jpg);
     background-position: contain;
     background-size: cover;
@@ -109,7 +111,9 @@ main .main_item img{
 }
 /* about */
 #about{
+    width: 80%;
     height: 85vh;
+    margin: 0 auto;
     background-image: url(./img/spot-bg-02.jpg);
     background-size: cover;
     background-position: center;
@@ -175,3 +179,59 @@ footer .subtitle{
     text-transform: capitalize;
     padding: 50px;
 }
+/* Media Query */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 549.98px) and (max-width: 1199.98px) {
+    /* header */
+    .container{
+        width: 95%;
+    }
+    header {
+        height: 100%;
+    }
+    header .container{
+        text-align: center;
+    }
+    header .header_item{
+        width: 380px;
+        height: 380px;
+        margin: 0 auto;
+    }
+    /* Main */
+    main{
+        height: 100%;
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 95%);
+    }
+    main .main_item{
+        width: 100%;
+    }
+    /* About */
+    #about{
+        margin-top: -60px;
+        padding: 70px 0;
+    }
+    /* footer */
+    footer{
+        height: 100%;
+        clip-path: polygon(0 8%, 100% 0, 100% 100%, 0 100%);
+    }
+    footer .footer_item{
+        width: 100%;
+    }
+    footer .footer_item:first-child{
+        padding: 0;
+    }
+    footer .footer_item img{
+        margin: 30px 0;
+    }
+}
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+
+
+
+
