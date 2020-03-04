@@ -27,22 +27,23 @@ body{
 }
 .link:hover{
     color: #E2EEFA;
-
 }
+
 /* Grid */
 .col-1{
-    width: 32.33%;
+    width: 33.33%;
     display: inline-block;
 
 }
 .col-2{
-    width: 64.66%;
+    width: 66.66%;
     display: inline-block;
 }
 .col-3{
-    width: 98.99%;
+    width: 99.99%;
     display: inline-block;
 }
+
 /* Header */
 header{
     width: 100%;
@@ -56,7 +57,6 @@ header img{
     border-radius: 50%;
     background-color: #494361;
     border: 2px solid #908d99;   
-
 }
 header h1 {
     font-weight: 100;
@@ -89,7 +89,6 @@ header .socials .fab,header .socials .far{
     padding: 15px;
     display: inline-block;
 }
-
 
 /* Main */
 main{
@@ -163,9 +162,14 @@ footer span{
     .container{
         width: 90%;
     }
-  
     header h1{
         font-size: 18px;
+    }
+    main .main_item{
+        padding: 0 5px;
+    }
+    main .main_item .subtitle{
+        font-size: 14px;
     }
 }
  /* Extra small devices (portrait phones, less than 576px) */

@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+/* Grid */
+.col_1{
+    width: 25%;
+}
+.col_2{
+    width: 50%;
+}
+.col_3{
+    width: 75%;
+}
+.col_4{
+    width: 100%;
+}
+
+/* Body */
+body{
+    font-family: "Nirmala UI";
+}
+.container{
+    width: 95%;
+    margin: 0 auto;
+}
+.clear-fix{
+    clear: both;
+}
+.link{
+    text-decoration: dotted;
+    border-bottom: 1px dotted #C3C0CB;
+    text-transform: uppercase;
+    color: #E2EEFA;
+
+}
+.link:hover{
+    color: #C3C0CB;
+}
+/* Header */
+header{
+    position: relative;
+    width: 100%;
+}
+header .home_nav{
+    position: absolute;
+    top: -65px;
+    left: 45%;
+    font-size: 20px;
+    background-color: #E74C3C;
+    color: #fff;
+    padding: 10px 35px;
+    padding-top: 50px;
+    border-radius: 50%;
+    border: 15px solid #fff;
+    z-index: 1;
+    display: block;
+}
+header .home{
+    display: inline-block;
+    margin-top: 30px;
+    color: #fff;
+}
+header .home i{
+    display: inline-block;
+    padding-top: 30px;
+}
+/* main */
+main .col_1{
+    float: left;
+    padding: 10px;
+}
+main .col_1 img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+/* Footer */
+footer{
+    width: 100%;
+    height: 100%;
+    background-color: #E74C3C;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 50px;
+}
+
+footer .title{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #EEDBDF;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 32px;
+}
+footer .subtitle{
+    line-height: 1.8;
+    color: #C3C0CB;
+}
+footer .socials .link{
+    display: inline-block;
+    font-size: 30px;
+    padding: 10px;
+    border: none;
+}
+footer hr{
+    border: 1px solid rgb(190, 185, 202);
+    margin: 30px auto;
+}
+footer span{
+    border-bottom: 1px dotted #E2EEFA;
+    color: #E2EEFA;
+}
+.copy_right{
+    margin: 30px 0;
+}
+
+/* Media Query */
+ /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .left{
+        width: 50%;
+        float: left;
+        display: inline-block;
+    }
+    .col_1{
+        width: 100%;
+    }
+    .right{
+        width: 50%;
+        float: right;
+        display: inline-block;
+    }
+    .col_1{
+        width: 100%;
+    }
+    header .home_nav{
+        position: absolute;
+        top: -40px;
+        left: 45%;
+        font-size: 14px;
+        background-color: #E74C3C;
+        color: #fff;
+        padding: 5px 20px;
+        padding-top: 20px;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        z-index: 1;
+        display: block;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .col_1{
+        width: 100%;
+    }
+    header .home_nav{
+        position: absolute;
+        top: -40px;
+        left: 45%;
+        font-size: 14px;
+        background-color: #E74C3C;
+        color: #fff;
+        padding: 5px 20px;
+        padding-top: 20px;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        z-index: 1;
+        display: block;
+    }
+}
