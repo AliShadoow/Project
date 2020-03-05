@@ -64,12 +64,8 @@ header .home_nav{
 }
 header .home{
     display: inline-block;
-    margin-top: 30px;
+    margin-top: 15px;
     color: #fff;
-}
-header .home i{
-    display: inline-block;
-    padding-top: 30px;
 }
 /* main */
 main .col_1{
